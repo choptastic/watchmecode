@@ -18,7 +18,7 @@ See videos made with WatchMeCode, and post your own to [the wiki](https://github
 
 ## Author
 
-Jesse Gumm (Twitter: @jessegumm)
+Jesse Gumm (Twitter: [@jessegumm](http://twitter.com/jessegumm))
 
 ## Licence
 
