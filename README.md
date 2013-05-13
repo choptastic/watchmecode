@@ -1,6 +1,6 @@
-# Watch Me Code
+# WatchMeCode
 
-scripts for making timelapse videos set to music
+A collection of simple scripts for making timelapse videos set to music
 
 # Usage
 
@@ -11,6 +11,10 @@ Make sure you have ffmpeg, avconv, and mp3info installed (`apt-get install ffmpe
 This will make a video called `done.mp4` in the current directory.
 
 This has not been thoroughly tested at all, only on Ubuntu
+
+# Videos Made with WatchMeCode
+
+See videos made with WatchMeCode, and post your own to [the wiki](https://github.com/choptastic/watchmecode/wiki/Videos-Made-with-WatchMeCode).
 
 # Author
 
