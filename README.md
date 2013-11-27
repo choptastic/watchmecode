@@ -4,7 +4,7 @@ scripts for making timelapse videos set to music
 
 # Usage
 
-Make sure you have ffmpeg, avconv, and mp3info installed (`apt-get install ffmpeg avconv mp3info`)
+Make sure you have ffmpegx and mp3info installed (`apt-get install ffmpeg mp3info`)
 
 `./make-av-video.sh /path/to/video/file.mpg /path/to/audio/file.mp3`
 
