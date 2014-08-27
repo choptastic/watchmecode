@@ -1,6 +1,7 @@
 #!/usr/bin/perl
 
 $backend = `cat backend`;
+chomp($backend);
 
 ($file) = @ARGV;
 
