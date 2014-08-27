@@ -6,7 +6,7 @@ A collection of simple scripts for making timelapse videos set to music
 
 Make sure you have avconv and mp3info installed (`apt-get install avconv mp3info`)
 
-`./make-av-video.sh /path/to/video/file.mpg /path/to/audio/file.mp3`
+`./watchmecode.sh /path/to/video/file.mpg /path/to/audio/file.mp3`
 
 This will make a video called `done.mp4` in the current directory.
 
@@ -17,7 +17,7 @@ This has not been thoroughly tested at all, only on Ubuntu
 I have no horses in this race, but since Ubuntu 14.04 doesn't have ffmpeg
 packages by default, I just use `avconv` instead of `ffmpeg`.
 
-If you dop want to use ffmpeg instead of avconv, go ahead and install ffmpeg
+If you do want to use ffmpeg instead of avconv, go ahead and install ffmpeg
 and modify the `backend` file to specify ffmpeg instead of avconv.
 
 It's hacky, but whatever.
@@ -32,9 +32,12 @@ Jesse Gumm (Twitter: [@jessegumm](http://twitter.com/jessegumm))
 
 ## Licence
 
-MIT License
+All of this is MIT License
 
 (not that there's really much to license here, it's a few simple shell commands, but whatever)
+
+Except for `mmcat`, which is GPL licensed (license at the top of the file).
+
 
 ## Notes
 
