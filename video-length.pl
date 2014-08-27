@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 
-$backend = `cat backend`
+$backend = `cat backend`;
 
 ($file) = @ARGV;
 
