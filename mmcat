@@ -33,7 +33,7 @@ BACKEND=avconv
 ################################################################################
 
 # change this to what you need !!!
- EXTRA_OPTIONS='-r 1 -qmax 30 -threads 4 -vcodec libx264 -acodec aac -strict experimental'
+ EXTRA_OPTIONS='-qmax 30 -threads 4 -vcodec rawvideo -strict experimental'
  #EXTRA_OPTIONS='-vcodec libx264 -crf 23 -preset medium -acodec aac -strict experimental -ac 2 -ar 44100 -ab 128k'
 
 ################################################################################
